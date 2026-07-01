@@ -149,5 +149,9 @@ function calculate() {
         }
 
     });
+    
 
 }
+document.querySelectorAll(".correction, .uncertainty").forEach(input => {
+    input.addEventListener("input", calculate);
+});

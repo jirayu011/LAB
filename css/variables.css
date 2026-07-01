@@ -1,0 +1,176 @@
+/* =========================================
+   GHCC Digital Hub Design Tokens
+   Version: 1.0
+   ========================================= */
+
+
+/* =========================================
+   Light Theme
+   ========================================= */
+
+:root {
+
+    /* ===== Brand Colors ===== */
+
+    --color-primary: #02ABFF;
+    --primary-color: var(--color-primary);
+    --color-primary-dark: #007ACC;
+
+    --color-navy: #0B1F3A;
+    --color-red: #E53935;
+
+
+    /* ===== Background ===== */
+
+    --bg-main: #F7FBFF;
+    --bg-secondary: #EAF6FF;
+
+    --bg-card: #FFFFFF;
+
+
+    /* ===== Text ===== */
+
+    --text-primary: #111827;
+    --text-secondary: #6B7280;
+
+    --text-white: #FFFFFF;
+
+
+    /* ===== Border ===== */
+
+    --border-color: #E5E7EB;
+
+
+    /* ===== Status Colors ===== */
+
+    --success: #22C55E;
+
+    --warning: #F59E0B;
+
+    --danger: #EF4444;
+
+
+    /* ===== Typography ===== */
+
+    --font-main: "Prompt", sans-serif;
+
+
+    /* Font Size */
+
+    --font-hero: 48px;
+
+    --font-title: 36px;
+
+    --font-section: 24px;
+
+    --font-card-title: 18px;
+
+    --font-body: 16px;
+
+    --font-small: 14px;
+
+
+    /* ===== Radius ===== */
+
+    --radius-sm: 10px;
+
+    --radius-md: 16px;
+
+    --radius-lg: 24px;
+
+    --radius-round: 999px;
+
+
+    /* ===== Shadow ===== */
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,0.08);
+
+
+    --shadow-md:
+        0 8px 24px rgba(0,0,0,0.10);
+
+
+    --shadow-lg:
+        0 15px 40px rgba(0,0,0,0.15);
+
+
+    /* ===== Layout ===== */
+
+    --container-width: 1440px;
+
+
+    /* Spacing System */
+
+    --space-xs: 4px;
+
+    --space-sm: 8px;
+
+    --space-md: 16px;
+
+    --space-lg: 24px;
+
+    --space-xl: 32px;
+
+    --space-xxl: 48px;
+
+    --space-xxxl: 64px;
+
+
+    /* ===== Animation ===== */
+
+    --transition-fast: 0.2s ease;
+
+    --transition-normal: 0.3s ease;
+
+    --transition-slow: 0.5s ease;
+
+}
+
+
+/* =========================================
+   Dark Theme
+   ========================================= */
+
+
+body.dark {
+
+
+    /* Background */
+
+    --bg-main: #081420;
+
+    --bg-secondary: #0F2942;
+
+
+    /* Card */
+
+    --bg-card: #15263A;
+
+
+    /* Text */
+
+    --text-primary: #FFFFFF;
+
+    --text-secondary: #B6C2D2;
+
+
+    /* Border */
+
+    --border-color: #2A405A;
+
+
+    /* Shadow */
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,0.40);
+
+
+    --shadow-md:
+        0 8px 24px rgba(0,0,0,0.50);
+
+
+    --shadow-lg:
+        0 15px 40px rgba(0,0,0,0.60);
+
+}

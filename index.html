@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applications - GHCC Digital Hub</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    
+    <header id="header"></header>
+    <nav id="navbar"></nav>
+
+    <main class="container">
+<div class="calculator-card">
+    <section class="hero2">
+
+    <div class="hero2-left">
+
+        <div class="hero2-icon">
+    <i class="fa-solid fa-temperature-half"></i>
+    </div>
+
+        <div>
+
+            <h1>
+
+<span class="blue">
+Calibration
+</span>
+
+<span class="rainbow">
+Calculator
+</span>
+
+</h1>
+
+            <p>
+                คำนวณค่า Correction, Uncertainty และผลลัพธ์
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="hero2-right">
+
+        <div class="bubble">
+            กรอกข้อมูลเพื่อคำนวณผลลัพธ์
+        </div>
+
+    </div>
+
+</section>
+
+    <div class="table-wrapper">
+
+        <table class="cal-table">
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Standard Reading</th>
+                    <th>UUC Reading</th>
+                    <th>Correction</th>
+                    <th>Uncertainty</th>
+                    <th>Correction - Uncertainty</th>
+                    <th>Correction + Uncertainty</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+
+        </table>
+
+    </div>
+
+    <div class="button-group">
+
+        <button id="resetBtn">
+            Reset
+        </button>
+
+        <button id="calculateBtn">
+            Calculate
+        </button>
+
+    </div>
+</div>  
+</main>
+
+    <div id="branch-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="branch-title">
+        <div class="modal-content">
+            <h2 id="branch-title">Select Branch</h2>
+            <p class="modal-subtitle">Choose your location</p>
+            <div id="branch-list"></div>
+            <button id="close-modal" type="button">Close</button>
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/component-loader.js"></script>
+    <script src="../js/settings-loader.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/theme.js"></script>
+    <script src="../js/datetime.js"></script>
+    <script src="../js/system-loader.js"></script>
+    <script src="../js/calibration.js"></script>
+</body>
+
+</html>
